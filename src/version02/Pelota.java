@@ -39,7 +39,7 @@ public class Pelota extends Actor {
 	 */
 	@Override
 	public void paint(Graphics g) {
-		g.setColor(Color.WHITE);
+		g.setColor(Color.MAGENTA);
 		g.fillOval(x, y, ancho, alto);
 	};
 	
